@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilos.css">
+   
+
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Juan Pablo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/DE_FRENTE3.png" alt="">
+            </div>
+            <h1>Juan P Jacinto</h1>
+            <h2>Tecnico Desarrollo de Aplicaciones orientado a multiplataformas</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/juan-pablo-jacinto-a7a857278/"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Juan Pablo.</span>Soy graduado en Desarrollo de Aplicaciones Multiplataforma (DAM). Me apasiona el mundo de la tecnología y tengo un profundo interés en la creación de soluciones innovadoras a través de la programación.
+
+                Durante mi tiempo en el el grado superior, adquirí una base en el desarrollo de software, abarcando una amplia gama de tecnologías y lenguajes de programación. Mi enfoque principal ha sido el desarrollo de aplicaciones para diversas plataformas, incluyendo web, móvil y escritorio. Trabajo con lenguajes como Java, JavaScript, C#, HTML, y CSS, y siempre estoy dispuesto
+                aprender nuevas tecnologías para mantenerme actualizado en un campo que evoluciona constantemente.
+                Creo que la tecnología tiene el poder de transformar industrias y mejorar la vida de las personas, y estoy emocionado por ser parte de este cambio positivo.</p>
+        </div>
+        <button>
+            <a href="cv/Jacinto-Guidice-JuanPablo.pdf" download="cv_juanjacinto">Descargar CV</a>
+            <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades tecnicas</h3>
+                    <div class="skill">
+                        <span>MYSQL</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>DDL</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PYTHON</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C#</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>ANDROID STUDIO</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>BLENDER</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>DAM Desarrollo de Aplicaciones orientada a Multiplataformas</h4>
+                        <span class="casa">Centro de estudios CampusNet</span>
+                        <span class="fecha">2022 - 2024</span>
+                        <p> Durante mi formación académica, he adquirido conocimientos en 
+                            lenguajes como Python, SQL ,Java, Android Studio, htmlc, css, javascripts, unity ,Photoshop .Actualmente, estoy enfocando mis esfuerzos en fortalecer mis habilidades a través de proyectos personales.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <!-- <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <!-- <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/plataformas2d.png" alt="">
+                    <div class="overlay">
+                        <h3>Plataformas-UNITY</h3>
+                        <p>Video Juego</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/astronomia.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño web</h3>
+                        <p>Astronomia para aficionados</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/blender.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Blender Habitacion</h3>
+                        <p>Modelado 3D</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/diagrama.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Torneo de Ajedrez</h3>
+                        <p>Base De Datos</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Asteroid.png" alt="">
+                    <div class="overlay">
+                        <h3>Asteroid-Unity</h3>
+                        <p>Video Juego</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/APIS (2).png" alt="">
+                    <div class="overlay">
+                        <h3>Web que consume APIS, sobre Rick y morty, conseguimos nombres,ubicacion,  episodio mediante ellas.</h3>
+                        <p>Diseño web APIS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formsubmit.co/juanjacinto501@gmail.com" method="post">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" id="name">
+                        <label for="phone">Movil</label>
+                        <input type="text"  name="phone" id="phone">
+                        <label for="email" >Correo</label>
+                        <input type="email" name="email" id="email">
+                        <label for="tema">Tema</label>
+                        <input type="text" name="tema" id="tema">
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="" cols="30" rows="10" name="Mensaje" id="Mensaje"></textarea>
+                        <button type="submit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Madrid,Spain
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                +34 652 390 767 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                juanjacinto501@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                    <img class="imgm" src="img/madrid.png" alt="ImagenMadrid" style="width: 50%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
